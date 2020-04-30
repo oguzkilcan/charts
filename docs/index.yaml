@@ -1,9 +1,24 @@
 apiVersion: v1
 entries:
+  calibre-web:
+  - apiVersion: v2
+    appVersion: 0.6.6-ls59
+    created: "2020-04-30T10:18:35.524783+02:00"
+    description: Calibre-Web is a web app providing a clean interface for browsing,
+      reading and downloading eBooks using an existing Calibre database
+    digest: ba9a0a837e5d1a30bacccd3b292076428658e89ce293eb9ef4769b9788ef5d3d
+    name: calibre-web
+    sources:
+    - https://github.com/janeczku/calibre-web
+    - https://github.com/linuxserver/docker-calibre-web
+    type: application
+    urls:
+    - https://oguzkilcan.github.io/charts/calibre-web-1.0.0.tgz
+    version: 1.0.0
   plex:
   - apiVersion: v2
     appVersion: 1.19.2.2737-b69929dab
-    created: "2020-04-30T10:02:50.224934+02:00"
+    created: "2020-04-30T10:18:35.525436+02:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 0e8980a90da206729c7c3a060541a2c1ef4522e40a3694859b4b5f5ff02f24bc
     home: https://plex.tv/
@@ -15,4 +30,4 @@ entries:
     urls:
     - https://oguzkilcan.github.io/charts/plex-0.1.5.tgz
     version: 0.1.5
-generated: "2020-04-30T10:02:50.222929+02:00"
+generated: "2020-04-30T10:18:35.523836+02:00"
