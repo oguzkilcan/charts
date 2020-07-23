@@ -5,7 +5,6 @@
 revisionHistoryLimit: 2
 
 image:
-  # https://hub.docker.com/r/plexinc/pms-docker
   repository: plexinc/pms-docker
   pullPolicy: IfNotPresent
 

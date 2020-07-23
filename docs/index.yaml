@@ -3,7 +3,7 @@ entries:
   calibre-web:
   - apiVersion: v2
     appVersion: 0.6.6-ls59
-    created: "2020-07-23T16:19:21.701751+02:00"
+    created: "2020-07-23T16:22:38.096392+02:00"
     description: Calibre-Web is a web app providing a clean interface for browsing,
       reading and downloading eBooks using an existing Calibre database
     digest: ba9a0a837e5d1a30bacccd3b292076428658e89ce293eb9ef4769b9788ef5d3d
@@ -17,8 +17,22 @@ entries:
     version: 1.0.0
   plex:
   - apiVersion: v2
+    appVersion: 1.19.5.3112-b23ab3896
+    created: "2020-07-23T16:22:38.101122+02:00"
+    description: Streaming app for movies, TV, music, web shows and podcasts
+    digest: 6d15d1a82e51fb359d7616e7d9b36049cd399ca8818bb419c07e88afe6370f1f
+    home: https://plex.tv/
+    icon: https://cdn.icon-icons.com/icons2/2108/PNG/512/plex_icon_130854.png
+    name: plex
+    sources:
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    type: application
+    urls:
+    - https://oguzkilcan.github.io/charts/plex-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
     appVersion: 1.19.2.2737-b69929dab
-    created: "2020-07-23T16:19:21.705196+02:00"
+    created: "2020-07-23T16:22:38.097597+02:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 0e8980a90da206729c7c3a060541a2c1ef4522e40a3694859b4b5f5ff02f24bc
     home: https://plex.tv/
@@ -33,7 +47,7 @@ entries:
   rtorrent-vpn:
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2020-07-23T16:19:21.713675+02:00"
+    created: "2020-07-23T16:22:38.111648+02:00"
     description: A Helm chart for rtorrent-vpn
     digest: 78c7b51865a854e91249faa4ce03071630f58c779b5f96e198d4ebbda07ce8ae
     name: rtorrent-vpn
@@ -43,7 +57,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2020-07-23T16:19:21.70888+02:00"
+    created: "2020-07-23T16:22:38.105018+02:00"
     description: A Helm chart for rtorrent-vpn
     digest: 66e1be6d3db9f084fbc39516a388da054dbfa624f6a59c86fb747f946b271214
     name: rtorrent-vpn
@@ -53,7 +67,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: rtorrent-ps-1.1.r54.ga787dd9-1-05
-    created: "2020-07-23T16:19:21.706946+02:00"
+    created: "2020-07-23T16:22:38.103039+02:00"
     description: A Helm chart for rtorrent-vpn
     digest: 05ee5861a91660108409c27f0411eb921a5c9216f4ac346000f8a80be4ac3a3d
     name: rtorrent-vpn
@@ -64,7 +78,7 @@ entries:
   teamspeak:
   - apiVersion: v2
     appVersion: 3.12.1
-    created: "2020-07-23T16:19:21.714564+02:00"
+    created: "2020-07-23T16:22:38.113151+02:00"
     description: A Helm chart for Team Speak 3
     digest: 14a98da181a6864a065762ede0a9fd2174dd567a8d40d64e1df010537d2c8cf2
     name: teamspeak
@@ -72,4 +86,4 @@ entries:
     urls:
     - https://oguzkilcan.github.io/charts/teamspeak-0.1.3.tgz
     version: 0.1.3
-generated: "2020-07-23T16:19:21.700499+02:00"
+generated: "2020-07-23T16:22:38.095327+02:00"
