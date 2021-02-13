@@ -2,7 +2,7 @@ apiVersion: v2
 name: rtorrent-vpn
 description: A Helm chart for rtorrent-vpn
 type: application
-version: 1.0.4
+version: 1.0.5
 appVersion: v3.10-01
 sources:
   - https://hub.docker.com/r/binhex/arch-rtorrentvpn/
