@@ -5,14 +5,13 @@
 revisionHistoryLimit: 2
 
 image:
-  # https://hub.docker.com/r/binhex/arch-rtorrentvpn/
   repository: binhex/arch-rtorrentvpn
   tag: v3.10-01
   pullPolicy: IfNotPresent
 
 initContainerImage:
   repository: busybox
-  tag: 1.31.1
+  tag: 1.32.1
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []

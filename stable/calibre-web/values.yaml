@@ -6,9 +6,7 @@ replicaCount: 1
 revisionHistoryLimit: 2
 
 image:
-  # https://hub.docker.com/r/linuxserver/calibre-web
   repository: linuxserver/calibre-web
-  tag: amd64-0.6.4-ls43
   pullPolicy: IfNotPresent
 
 imagePullSecrets: []
