@@ -40,6 +40,10 @@ spec:
           envFrom:
             - configMapRef:
                 name: {{ include "teamspeak.fullname" . }}
+                optional: true
+            - secretRef:
+                name: {{ include "teamspeak.fullname" . }}
+                optional: true
           {{- end }}
           ports:
             - containerPort: 2456
