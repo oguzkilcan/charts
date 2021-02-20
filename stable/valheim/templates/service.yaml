@@ -13,12 +13,15 @@ spec:
   ports:
     - port: 2456
       targetPort: 2456
+      name: "2456"
       protocol: UDP
     - port: 2457
       targetPort: 2457
+      name: "2457"
       protocol: UDP
     - port: 2458
       targetPort: 2458
+      name: "2458"
       protocol: UDP
   selector:
     {{- include "valheim.selectorLabels" . | nindent 4 }}
