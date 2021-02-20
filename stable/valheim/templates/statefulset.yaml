@@ -44,11 +44,11 @@ spec:
           envFrom:
             {{- if .Values.extraEnvConfigMap }}
             - configMapRef:
-                name: {{ include "teamspeak.fullname" . }}
+                name: {{ include "valheim.fullname" . }}
             {{- end }}
             {{- if .Values.extraEnvSecret }}
             - secretRef:
-                name: {{ include "teamspeak.fullname" . }}
+                name: {{ include "valheim.fullname" . }}
             {{- end }}
           {{- end }}
           ports:
