@@ -17,10 +17,14 @@ spec:
     metadata:
       labels:
         {{- include "valheim.selectorLabels" . | nindent 8 }}
-      {{- if .Values.extraEnv }}
+      {{- if or .Values.extraEnvConfigMap .Values.extraEnvSecret }}
       annotations:
+        {{- if .Values.extraEnvConfigMap }}
         checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
+        {{- end }}
+        {{- if .Values.extraEnvSecret }}
         checksum/secret: {{ include (print $.Template.BasePath "/secret.yaml") . | sha256sum }}
+        {{- end }}
       {{- end }}
     spec:
     {{- with .Values.imagePullSecrets }}
@@ -36,14 +40,16 @@ spec:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
-          {{- if .Values.extraEnv }}
+          {{- if or .Values.extraEnvConfigMap .Values.extraEnvSecret }}
           envFrom:
+            {{- if .Values.extraEnvConfigMap }}
             - configMapRef:
                 name: {{ include "teamspeak.fullname" . }}
-                optional: true
+            {{- end }}
+            {{- if .Values.extraEnvSecret }}
             - secretRef:
                 name: {{ include "teamspeak.fullname" . }}
-                optional: true
+            {{- end }}
           {{- end }}
           ports:
             - containerPort: 2456
