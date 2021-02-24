@@ -3,7 +3,7 @@ entries:
   calibre-web:
   - apiVersion: v2
     appVersion: 0.6.11-ls104
-    created: "2021-02-24T17:17:47.946033+01:00"
+    created: "2021-02-24T17:24:18.960189+01:00"
     description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database
     digest: 36cadad95019dc26ad4d4b51121191ec53e2f1ea132bd059ccf67e857798130c
     name: calibre-web
@@ -17,7 +17,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 0.6.11-ls104
-    created: "2021-02-24T17:17:47.944656+01:00"
+    created: "2021-02-24T17:24:18.958632+01:00"
     description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database
     digest: 02fe962403a98b3fc76e6ccbcf034886b633e76f411345a0929fd32e49a1a830
     name: calibre-web
@@ -31,7 +31,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 0.6.11-ls104
-    created: "2021-02-24T17:17:47.942558+01:00"
+    created: "2021-02-24T17:24:18.957521+01:00"
     description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database
     digest: 7a754ef961eb9635477526884266d5fe01817cbd0ff1408a5f40a071d09e8f65
     name: calibre-web
@@ -45,7 +45,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 0.6.11-ls104
-    created: "2021-02-24T17:17:47.940941+01:00"
+    created: "2021-02-24T17:24:18.955164+01:00"
     description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database
     digest: 5791afed0982ad0c7572d722958a39ca1e3abb8bddb57f8b5d9ec40ab9a67992
     name: calibre-web
@@ -59,7 +59,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 0.6.6-ls59
-    created: "2021-02-24T17:17:47.939567+01:00"
+    created: "2021-02-24T17:24:18.953955+01:00"
     description: Calibre-Web is a web app providing a clean interface for browsing, reading and downloading eBooks using an existing Calibre database
     digest: ba9a0a837e5d1a30bacccd3b292076428658e89ce293eb9ef4769b9788ef5d3d
     name: calibre-web
@@ -73,7 +73,21 @@ entries:
   plex:
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.983041+01:00"
+    created: "2021-02-24T17:24:18.975254+01:00"
+    description: Streaming app for movies, TV, music, web shows and podcasts
+    digest: d58b36b0db2cd799689462d80c8e42b653052c0b26f4e6f3d7af565d69436854
+    home: https://plex.tv/
+    icon: https://cdn.icon-icons.com/icons2/2108/PNG/512/plex_icon_130854.png
+    name: plex
+    sources:
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    type: application
+    urls:
+    - https://oguzkilcan.github.io/charts/plex-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v2
+    appVersion: 1.21.3.4021-5a0a3e4b2
+    created: "2021-02-24T17:24:18.974134+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 13f273e6af383d05624a10a0f066705b10742af25fe802baa7ef6a88ce5c472a
     home: https://plex.tv/
@@ -87,7 +101,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.982269+01:00"
+    created: "2021-02-24T17:24:18.972392+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 2867e543c3613edfda68b300a2ab1024f1dce7135be74f770d9ae64c176fbe9a
     home: https://plex.tv/
@@ -101,7 +115,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.979572+01:00"
+    created: "2021-02-24T17:24:18.971013+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 6969b2787892e5fd8ce1f0bdf69c5e0650a689351fa00fd6e72cd8bd700cab21
     home: https://plex.tv/
@@ -115,7 +129,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.954593+01:00"
+    created: "2021-02-24T17:24:18.969795+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 56cc16198bf1a55d551f17bc63d2e57e02c13e4e2d8b45d817d9f71d807ac7fb
     home: https://plex.tv/
@@ -129,7 +143,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.95301+01:00"
+    created: "2021-02-24T17:24:18.968616+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 3d91b765c221f718fc5db76c7fe90c3a7f7739bc42ba4e1ae1722c2e3965080f
     home: https://plex.tv/
@@ -143,7 +157,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.951551+01:00"
+    created: "2021-02-24T17:24:18.967374+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: f48e687dfa53864d7e6da2335600a7fb2344ddd645209704af3137ede5042a41
     home: https://plex.tv/
@@ -157,7 +171,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.21.3.4021-5a0a3e4b2
-    created: "2021-02-24T17:17:47.950492+01:00"
+    created: "2021-02-24T17:24:18.965856+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 472e0d1cf9ed26f740afcae539360b3635d8e9346660e217ca5f67da940b0b64
     home: https://plex.tv/
@@ -171,7 +185,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.19.5.3112-b23ab3896
-    created: "2021-02-24T17:17:47.948954+01:00"
+    created: "2021-02-24T17:24:18.964598+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 6d15d1a82e51fb359d7616e7d9b36049cd399ca8818bb419c07e88afe6370f1f
     home: https://plex.tv/
@@ -185,7 +199,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 1.19.2.2737-b69929dab
-    created: "2021-02-24T17:17:47.947217+01:00"
+    created: "2021-02-24T17:24:18.963272+01:00"
     description: Streaming app for movies, TV, music, web shows and podcasts
     digest: 0e8980a90da206729c7c3a060541a2c1ef4522e40a3694859b4b5f5ff02f24bc
     home: https://plex.tv/
@@ -200,7 +214,7 @@ entries:
   rtorrent-vpn:
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.995808+01:00"
+    created: "2021-02-24T17:24:18.986205+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 04342391de05a479ed012120f46f88449aa69f897e43a3e83e5b4ffa5d91b781
     name: rtorrent-vpn
@@ -212,7 +226,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.99363+01:00"
+    created: "2021-02-24T17:24:18.984068+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: bc8296bc60e67e30f9f671b642be77ac33d8645223183e3a696c843d6a4d4e38
     name: rtorrent-vpn
@@ -224,7 +238,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.991586+01:00"
+    created: "2021-02-24T17:24:18.98246+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 49a97934de043626f8a06f4eed048849caaff5561587564f6ee7dd54771491f7
     name: rtorrent-vpn
@@ -236,7 +250,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.989842+01:00"
+    created: "2021-02-24T17:24:18.980808+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 3f26858497f944b94452c0ea6ffae63ff500f59f048308c7683e9b6c37ec2a3c
     name: rtorrent-vpn
@@ -248,7 +262,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.987895+01:00"
+    created: "2021-02-24T17:24:18.979147+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 78c7b51865a854e91249faa4ce03071630f58c779b5f96e198d4ebbda07ce8ae
     name: rtorrent-vpn
@@ -258,7 +272,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v3.10-01
-    created: "2021-02-24T17:17:47.986327+01:00"
+    created: "2021-02-24T17:24:18.977983+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 66e1be6d3db9f084fbc39516a388da054dbfa624f6a59c86fb747f946b271214
     name: rtorrent-vpn
@@ -268,7 +282,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: rtorrent-ps-1.1.r54.ga787dd9-1-05
-    created: "2021-02-24T17:17:47.98482+01:00"
+    created: "2021-02-24T17:24:18.976627+01:00"
     description: A Helm chart for rtorrent-vpn
     digest: 05ee5861a91660108409c27f0411eb921a5c9216f4ac346000f8a80be4ac3a3d
     name: rtorrent-vpn
@@ -279,7 +293,7 @@ entries:
   teamspeak:
   - apiVersion: v2
     appVersion: 3.13.3
-    created: "2021-02-24T17:17:48.000585+01:00"
+    created: "2021-02-24T17:24:18.990306+01:00"
     description: VoIP communication system for Online Gaming
     digest: ce5046c6ebc84f89d4c0b4952de977df64a3c3fe3b5b4d5febd06d2cb84f050a
     home: https://teamspeak.com
@@ -293,7 +307,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 3.13.3
-    created: "2021-02-24T17:17:47.998868+01:00"
+    created: "2021-02-24T17:24:18.988875+01:00"
     description: VoIP communication system for Online Gaming
     digest: cae0abe6f8f2458dc7e30125c323a62d01befc24bac359913dbd416d874ceb92
     home: https://teamspeak.com
@@ -307,7 +321,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 3.12.1
-    created: "2021-02-24T17:17:47.997869+01:00"
+    created: "2021-02-24T17:24:18.988061+01:00"
     description: VoIP communication system for Online Gaming
     digest: 28ac7ffe8ea35d9722c5fdaf072cf9a2327abe650612e46aab6b63d6322fdec7
     home: https://plex.tv/
@@ -321,7 +335,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 3.12.1
-    created: "2021-02-24T17:17:47.996829+01:00"
+    created: "2021-02-24T17:24:18.987078+01:00"
     description: A Helm chart for Team Speak 3
     digest: 14a98da181a6864a065762ede0a9fd2174dd567a8d40d64e1df010537d2c8cf2
     name: teamspeak
@@ -332,7 +346,7 @@ entries:
   valheim:
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.010943+01:00"
+    created: "2021-02-24T17:24:18.998427+01:00"
     description: A Helm chart for Valheim
     digest: 28367ebca83227de8efdc1b33dbd2c27cd0f882b675aa0abf0f00b5e3a3aa4b8
     name: valheim
@@ -342,7 +356,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.009256+01:00"
+    created: "2021-02-24T17:24:18.997473+01:00"
     description: A Helm chart for Valheim
     digest: f20c864f25e30d91332936d698e541840eed52c119404216f85cb48b7c6758ab
     name: valheim
@@ -352,7 +366,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.007604+01:00"
+    created: "2021-02-24T17:24:18.996385+01:00"
     description: A Helm chart for Valheim
     digest: 12429daa072397c647e518887a4b3a88c94c8973dfe0ea112a01c2505a089926
     name: valheim
@@ -362,7 +376,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.006038+01:00"
+    created: "2021-02-24T17:24:18.995157+01:00"
     description: A Helm chart for Valheim
     digest: ac9737134191ae350e8233fabcd88afd0199f5a41a5a2b41c13ecf8d06cd4339
     name: valheim
@@ -372,7 +386,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.004172+01:00"
+    created: "2021-02-24T17:24:18.992604+01:00"
     description: A Helm chart for Valheim
     digest: 2d0c3da5134575bbc48979063a0a8465926acc5b7bd8e0bfef9ffc484dcff648
     name: valheim
@@ -382,7 +396,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: main
-    created: "2021-02-24T17:17:48.002767+01:00"
+    created: "2021-02-24T17:24:18.991512+01:00"
     description: A Helm chart for Valheim
     digest: 02a9d8569796b2142739415091f250a22f532a11292ceaf232cf0da6ded4aee1
     name: valheim
@@ -390,4 +404,4 @@ entries:
     urls:
     - https://oguzkilcan.github.io/charts/valheim-0.1.0.tgz
     version: 0.1.0
-generated: "2021-02-24T17:17:47.93826+01:00"
+generated: "2021-02-24T17:24:18.952881+01:00"

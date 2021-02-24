@@ -58,12 +58,12 @@ spec:
           readinessProbe:
             httpGet:
               path: /identity
-              port: http
+              port: 32400
             initialDelaySeconds: 30
           livenessProbe:
             httpGet:
               path: /identity
-              port: http
+              port: 32400
             initialDelaySeconds: 60
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
