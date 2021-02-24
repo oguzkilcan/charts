@@ -30,6 +30,7 @@ spec:
   ports:
   {{- range .Values.service.tcp.ports }}
     - name: plex-{{ .port }}
+      port: {{ .port }}
       targetPort: {{ .containerPort }}
       protocol: TCP
   {{- end }}
@@ -53,6 +54,7 @@ spec:
   ports:
     {{- range .Values.service.udp.ports }}
     - name: plex-{{ .port }}
+      port: {{ .port }}
       targetPort: {{ .containerPort }}
       protocol: UDP
     {{- end }}
