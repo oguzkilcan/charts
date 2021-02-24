@@ -37,9 +37,15 @@ service:
   tcp:
     type: LoadBalancer
     annotations: {}
+    ports:
+      - port: 32400
+        containerPort: 32400
   udp:
     type: LoadBalancer
     annotations: {}
+#    ports:
+#      - port:
+#        containerPort:
 
 ingress:
   enabled: false

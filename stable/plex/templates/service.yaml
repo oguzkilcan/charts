@@ -8,12 +8,13 @@ spec:
   type: {{ .Values.service.main.type }}
   ports:
     - port: {{ .Values.service.main.port }}
-      targetPort: http
+      targetPort: 32400
       protocol: TCP
       name: http
   selector:
     {{- include "plex.selectorLabels" . | nindent 4 }}
 ---
+{{- if .Values.service.tcp.ports }}
 apiVersion: v1
 kind: Service
 metadata:
@@ -27,25 +28,16 @@ metadata:
 spec:
   type: {{ .Values.service.tcp.type }}
   ports:
-    - port: 32400
-      targetPort: http
+  {{- range .Values.service.tcp.ports }}
+    - name: plex-{{ .port }}
+      targetPort: {{ .containerPort }}
       protocol: TCP
-      name: plex-32400
-    - port: 3005
-      targetPort: plex-3005
-      protocol: TCP
-      name: plex-3005
-    - port: 8324
-      targetPort: plex-8324
-      protocol: TCP
-      name: plex-8324
-    - port: 32469
-      targetPort: plex-32469
-      protocol: TCP
-      name: plex-32469
+  {{- end }}
   selector:
     {{- include "plex.selectorLabels" . | nindent 4 }}
+{{- end }}
 ---
+{{- if .Values.service.udp.ports }}
 apiVersion: v1
 kind: Service
 metadata:
@@ -59,25 +51,11 @@ metadata:
 spec:
   type: {{ .Values.service.udp.type }}
   ports:
-    - port: 1900
-      targetPort: plex-1900
+    {{- range .Values.service.udp.ports }}
+    - name: plex-{{ .port }}
+      targetPort: {{ .containerPort }}
       protocol: UDP
-      name: plex-1900
-    - port: 32410
-      targetPort: plex-32410
-      protocol: UDP
-      name: plex-32410
-    - port: 32412
-      targetPort: plex-32412
-      protocol: UDP
-      name: plex-32412
-    - port: 32413
-      targetPort: plex-32413
-      protocol: UDP
-      name: plex-32413
-    - port: 32414
-      targetPort: plex-32414
-      protocol: UDP
-      name: plex-32414
+    {{- end }}
   selector:
     {{- include "plex.selectorLabels" . | nindent 4 }}
+{{- end }}
